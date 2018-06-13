@@ -12,9 +12,8 @@ h1 {
   color: #fff;
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 30%;
   transform: translateX(-50%);
-  white-space: nowrap;
 }
 
 #particles-js {
@@ -22,9 +21,13 @@ h1 {
   height: 100%;
   z-index: 1;
 }
+#resume {
 
-#resume{
-  margin-top: 4rem;
+}
+
+#skills {
+  background-color: white;
+  position: relative;
 }
 
 .button {
@@ -43,30 +46,30 @@ h1 {
   text-transform: uppercase;
   text-decoration: none;
   transform: translateX(-50%);
+  margin: 0 1rem;
+}
+
+.card-deck {
+  margin-top: -1rem;
+  margin-bottom: 5rem;
 }
 
 
 
-
-
-@media (min-width: 1199px) {
-  .port-item {
-    padding: 3em !important;
+@media (min-width: 1025px) {
+  #particles-js {
+    background: darkgrey;
   }
 }
 
-@media(max-width: 800px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  .button {
-    width: 12rem;
+@media(min-width: 768px) {
+  #particles-js {
+    background: grey;
   }
 }
 
-@media(max-height: 700px) {
-  .button {
-    top: 70%;
+@media(min-height: 425px) {
+  #particles-js {
+    background: lightgrey;
   }
 }
