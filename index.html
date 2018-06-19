@@ -29,28 +29,36 @@
       });
     </script>
   <!-- Particles End -->
-</head>
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+
+
+</head>
 <body>
+
+
+<canvas id="myChart"></canvas>
 
   <div id="particles-js"></div>
 
   <div class="container-fluid">
 
-    <h1 style="color: grey;">Designer.Programmer</h1>
+    <h1 class="h2 text-white">Designer.Programmer</h1>
     <a href="#resume" class="button">Explore</a>
 
-    <div id="resume">w
+    <div id="resume">
       <div class="card-deck">
         <div class="card">
           <div class="card-body">
             <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
               <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
             </a>
-            <h4 class="card-title">Devmasters</h4>
+            <h4 class="card-title">CodePolytope</h4>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
             <p class="p-2 mb-3 bg-dark text-white">
-              Position: Full Stack Developer
+              Classification: Blog powered Portfolio
             </p>
             <p class="p-2 mb-3 bg-dark text-white">
               Phone: (444) 444-4444
@@ -66,10 +74,10 @@
             <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
               <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
             </a>
-            <h4 class="card-title">123 Designs</h4>
+            <h4 class="card-title">oneGoal</h4>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
             <p class="p-2 mb-3 bg-dark text-white">
-              Position: Web Designer
+              Classification: Goal setting and ahchiving tool
             </p>
             <p class="p-2 mb-3 bg-dark text-white">
               Phone: (222) 222-2222
@@ -86,10 +94,10 @@
             <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
               <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
             </a>
-            <h4 class="card-title">Devmasters</h4>
+            <h4 class="card-title">iLvL</h4>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
             <p class="p-2 mb-3 bg-dark text-white">
-              Position: Full Stack Developer
+              Classification: Visual value representation tool
             </p>
             <p class="p-2 mb-3 bg-dark text-white">
               Phone: (444) 444-4444
@@ -105,10 +113,10 @@
             <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
               <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
             </a>
-            <h4 class="card-title">123 Designs</h4>
+            <h4 class="card-title">Haggler</h4>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
             <p class="p-2 mb-3 bg-dark text-white">
-              Position: Web Designer
+              Clasification: social eCommerce platform
             </p>
             <p class="p-2 mb-3 bg-dark text-white">
               Phone: (222) 222-2222
@@ -122,7 +130,7 @@
     </div>
 
     <!-- Skills -->
-    <div id="skills">
+<!--     <div id="skills">
       <div class="">
         <hr>
         <h4>HTML 5</h4>
@@ -146,7 +154,7 @@
           <div class="progress-bar bg-success" style="width:70%"></div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- CONTACT -->
     <div id="contact" class="">
@@ -218,6 +226,50 @@
       </div>
     </div>
   </div>
+
+
+
+
+
+  <script type="text/javascript">
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+            datasets: [{
+                label: '# of Votes',
+                data: [12, 19, 3, 5, 2, 3],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }]
+            }
+        }
+    });
+  </script>
 </body>
 
 </html>

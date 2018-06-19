@@ -9,18 +9,28 @@ html, body {
 
 h1 {
   font-size: 4rem;
-  color: #fff;
+  color: #59A5D8;
   position: absolute;
   left: 50%;
   top: 30%;
   transform: translateX(-50%);
 }
 
+h4 {
+  text-align: center;
+}
+
 #particles-js {
-  background: lightgrey;
+  background: #B8F3FF;
   height: 100%;
   z-index: 1;
 }
+
+#myChart {
+  margin-bottom: -100%;
+  z-index: 2;
+}
+
 #resume {
 
 }
