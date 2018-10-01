@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "kirillnovikov.com",
   "scripts": {
-    "start": "node your-script.js",
+    "start": "node main.js",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
