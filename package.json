@@ -5,10 +5,11 @@
   "main": "main.js",
   "homepage": "kirillnovikov.com",
   "scripts": {
+    "start": "node",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Brad Traversy",
+  "author": "Kirill Novikov",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.2.0",
