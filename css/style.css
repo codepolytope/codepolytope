@@ -1,0 +1,85 @@
+html, body {
+  padding:0;
+  margin:0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #59A5D8;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+
+h4 {
+  text-align: center;
+}
+
+#particles-js {
+  background: #B8F3FF;
+  height: 100%;
+  z-index: 1;
+}
+
+#myChart {
+  margin-bottom: -100%;
+  z-index: 2;
+}
+
+#resume {
+
+}
+
+#skills {
+  background-color: white;
+  position: relative;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 4rem;
+  padding-top: 1rem;
+  width: 10rem;
+  text-align: center;
+  color: #fff;
+  border: #fff solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transform: translateX(-50%);
+  margin: 0 1rem;
+}
+
+.card-deck {
+  margin-top: -1rem;
+  margin-bottom: 5rem;
+}
+
+
+
+@media (min-width: 1025px) {
+  #particles-js {
+    background: darkgrey;
+  }
+}
+
+@media(min-width: 768px) {
+  #particles-js {
+    background: grey;
+  }
+}
+
+@media(min-height: 425px) {
+  #particles-js {
+    background: lightgrey;
+  }
+}
