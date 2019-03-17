@@ -1,0 +1,22 @@
+{
+  "name": "codepolytope",
+  "version": "1.0.0",
+  "description": "porfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codepolytope/codepolytope.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codepolytope/codepolytope.github.io/issues"
+  },
+  "homepage": "https://github.com/codepolytope/codepolytope.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

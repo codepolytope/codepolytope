@@ -1,0 +1,16 @@
+// Variables
+$website-width: 1280px;
+$main-color: #EDB458;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #CDD0D1;
+$bg-image: url('../img/showcase.png');
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

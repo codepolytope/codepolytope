@@ -22,7 +22,7 @@
 
 .btn-dark {
   color: #f4f4f4;
-  background-color: #CDD0D1; }
+  background-color: #EDB458; }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
@@ -191,8 +191,8 @@ img {
   width: 100%; }
 
 #logo {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   text-transform: uppercase; }
 
 #main-nav {
@@ -218,7 +218,7 @@ img {
       border-radius: 10px; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/showcase.png") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -231,7 +231,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/showcase.png") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #EDB458; }
 
@@ -302,7 +302,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bio bio bioimage' 'aw1 aw2 aw3';
+  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -331,7 +331,7 @@ img {
 
 #about-b .progress {
   overflow: hidden;
-  height: 20px;
+  height: 1.5rem;
   background: #ccc;
   border-radius: 5px;
   margin-bottom: 0.6rem; }
@@ -443,15 +443,18 @@ img {
 @media (max-width: 500px) {
   #main-nav {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin-top: 2rem; }
     #main-nav li {
       padding: 1rem; }
   #header-home {
-    height: 10rem;
+    height: 100vh;
     border-bottom: 3px solid #EDB458;
-    background-position: 20% 30%; }
+    background-position: 50% 50%; }
     #header-home .header-content {
-      display: none; }
+      display: inline-block; }
+      #header-home .header-content h1 {
+        font-size: 2rem; }
   #header-inner {
     height: 10rem; }
   #home-a .specials,
