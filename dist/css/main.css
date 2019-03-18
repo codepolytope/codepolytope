@@ -379,7 +379,7 @@ img {
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
     grid-area: name;
-    order: 1px #CDD0D1 solid;
+    border: 1px #CDD0D1 solid;
     border-radius: 10px; }
   #contact-a .text-fields .subject-input {
     grid-area: subject;

@@ -355,30 +355,30 @@
               type="text"
               class="text-input name-input"
               placeholder="Name"
-              name="name"
+              name="Name"
             />
             <input
               type="text"
               class="text-input subject-input"
               placeholder="Subject"
-              name="subject"
+              name="Subject"
             />
             <input
               type="email"
               class="text-input email-input"
               placeholder="Email Address"
-              name="email"
+              name="Email"
             />
             <input
               type="text"
               class="text-input phone-input"
               placeholder="Phone Number"
-              name="phone"
+              name="Phone"
             />
             <textarea
               class="text-input message-input"
               placeholder="Enter Message"
-              name="message"
+              name="Message"
             ></textarea>
             <div class="my-2">
               <div data-netlify-recaptcha="true"></div>
@@ -413,7 +413,7 @@
     </section>
 
     <!-- Section C: Tagline -->
-    <section id="contact-c" class="bg-main py-4">
+    <section id="contact-c" class="bg-main py-3">
       <div class="container">
         <h1>Let's Start Your Next Project</h1>
       </div>
@@ -433,36 +433,12 @@
       </div>
     </footer>
 
- 
+    <!-- Typewriter Effect -->
     <script src="js/typewriter.js"></script>
-
+    <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        // Add smooth scrolling to all links
-        $("a").on('click', function(event) {
-
-          // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
-
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function(){
-
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            });
-          } // End if
-        });
-      });
-    </script>
+    <!-- SmoothScroll Effect -->
+    <script src="js/smoothscroll.js"></script>
 
   </body>
 </html>

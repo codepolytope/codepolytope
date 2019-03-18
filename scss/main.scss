@@ -330,7 +330,7 @@ img {
       // Grid Areas
       .name-input {
         grid-area: name;
-        order: 1px $dark-color solid;
+        border: 1px $dark-color solid;
         border-radius: 10px;
       }
       .subject-input {
