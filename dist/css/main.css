@@ -218,7 +218,7 @@ img {
       border-radius: 10px; }
 
 #header-home {
-  background: url("../img/showcase.png") no-repeat center right/cover;
+  background: url("../img/showcase2.png") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -231,7 +231,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.png") no-repeat 20% 30%/cover;
+  background: url("../img/showcase2.png") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #EDB458; }
 
